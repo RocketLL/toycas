@@ -5,9 +5,6 @@ class Variable:
     def __str__(self):
         return self.symbol
 
-    def __add__(self, other):
-        return Equation(self + other)
-
 
 class Equation:
     ADD, SUB = ["+", "-"]
